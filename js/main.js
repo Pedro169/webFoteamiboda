@@ -1,3 +1,4 @@
+/* Galeria Imagen Horizontal */
 const gallery = document.querySelectorAll(".image");
 const modal = document.querySelector(".modal");
 const modalContent = document.getElementById("modal-image");
@@ -19,7 +20,7 @@ window.addEventListener("click", (event) => {
     modal.style.display = "none";
   }
 });
-
+/*Galeria Imagen vertical*/
 const galleryh = document.querySelectorAll(".imageh");
 const modalh = document.querySelector(".modalh");
 const modalContenth = document.getElementById("modal-imageh");
