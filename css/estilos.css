@@ -34,6 +34,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -104,7 +116,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/horizontal28.jpg");
+  background-image: url("../../img/RoxanayGeral/RoxanayGeral-273.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -319,7 +331,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo, body main .img-fondoBody {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/horizontal28.jpg");
+  background-image: url("../../img/RoxanayGeral/RoxanayGeral-273.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -534,7 +546,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo, body main .img-fondoBody {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/horizontal28.jpg");
+  background-image: url("../../img/RoxanayGeral/RoxanayGeral-273.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -787,11 +799,11 @@ body .modalh .close-modalh {
     max-height: auto;
     display: block;
     margin: auto;
-    top: 10rem;
+    top: 15rem;
   }
   body .modal .close-modal {
     position: absolute;
-    top: 6rem;
+    top: 11rem;
     right: 1rem;
     font-size: 2.5rem;
     cursor: pointer;
@@ -811,7 +823,68 @@ body .modalh .close-modalh {
   body .modalh .modal-contenth {
     max-width: 20rem;
     max-height: auto;
+    top: 10rem;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: auto;
+  }
+  body .modalh .close-modalh {
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+  }
+}
+@media (max-width: 360px) {
+  body .imagenFondo-galeria {
+    background-position: center;
+  }
+  body .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+  }
+  body .modal .modal-content {
+    max-width: 80%;
+    max-height: auto;
+    display: block;
+    margin: auto;
     top: 15rem;
+  }
+  body .modal .close-modal {
+    position: absolute;
+    top: 11rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+  }
+  body .modalh {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+  }
+  body .modalh .modal-contenth {
+    max-width: 40rem;
+    max-height: auto;
+    top: 1rem;
     text-align: center;
     display: block;
     position: relative;
@@ -997,7 +1070,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/horizontal28.jpg");
+  background-image: url("../../img/RoxanayGeral/RoxanayGeral-273.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1306,7 +1379,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/horizontal28.jpg");
+  background-image: url("../../img/RoxanayGeral/RoxanayGeral-273.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1559,11 +1632,11 @@ body .modalh .close-modalh {
     max-height: auto;
     display: block;
     margin: auto;
-    top: 10rem;
+    top: 15rem;
   }
   body .modal .close-modal {
     position: absolute;
-    top: 6rem;
+    top: 11rem;
     right: 1rem;
     font-size: 2.5rem;
     cursor: pointer;
@@ -1583,7 +1656,68 @@ body .modalh .close-modalh {
   body .modalh .modal-contenth {
     max-width: 20rem;
     max-height: auto;
+    top: 10rem;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: auto;
+  }
+  body .modalh .close-modalh {
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+  }
+}
+@media (max-width: 360px) {
+  body .imagenFondo-galeria {
+    background-position: center;
+  }
+  body .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+  }
+  body .modal .modal-content {
+    max-width: 80%;
+    max-height: auto;
+    display: block;
+    margin: auto;
     top: 15rem;
+  }
+  body .modal .close-modal {
+    position: absolute;
+    top: 11rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+  }
+  body .modalh {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+  }
+  body .modalh .modal-contenth {
+    max-width: 40rem;
+    max-height: auto;
+    top: 1rem;
     text-align: center;
     display: block;
     position: relative;
@@ -1670,7 +1804,7 @@ body main .interiorInicio h3 {
 body main .imagenFondo {
   margin: 0;
   padding: 0;
-  background-image: url("../../img/horizontal28.jpg");
+  background-image: url("../../img/RoxanayGeral/RoxanayGeral-273.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -1908,6 +2042,665 @@ body main .fondo-contacto .formulario .contenedor-btn .btn-contacto:hover {
   body main .fondo-contacto .formulario .contenedor-btn {
     margin-left: 0rem;
   }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body main nav {
+  background-color: red;
+}
+body main h1 {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+body main h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration-line: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+body main h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+body main .navbar-brand1 {
+  font-family: "Dancing Script", cursive;
+}
+body main .carrusel {
+  display: flex;
+  justify-content: center;
+}
+body main .carrusel .img-index {
+  width: 100%;
+  height: auto;
+}
+body main .interiorInicio {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+body main .interiorInicio .img-carrusel {
+  padding: 1rem;
+  width: 15rem;
+  height: auto;
+  margin-left: 2rem;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+body main .interiorInicio .img-carrusel:hover {
+  transform: scale(1.2);
+}
+body main .interiorInicio h3 {
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  color: black;
+  text-decoration: none;
+}
+body main .imagenFondo {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../img/RoxanayGeral/RoxanayGeral-273.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+  width: auto;
+  height: 55vh;
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+}
+body main .imagenFondo .fuente {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(12, 2, 2, 0.925);
+}
+body main .bienvenida {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+body main .bienvenida .perfil {
+  padding: 1rem;
+  width: 15rem;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+body main .bienvenida .p-bienvenida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+}
+body main .bienvenida .p-bienvenida .p {
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+}
+body main .bienvenida .p-bienvenida .btn-conoceme {
+  margin-left: 18rem;
+  color: black;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  padding: 0.2rem 1rem;
+  border: solid 1px black;
+}
+body main .bienvenida .p-bienvenida .btn-conoceme:hover {
+  background-color: black;
+  color: white;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
+body footer .img-piePagina .img-footer {
+  width: 7rem;
+  height: auto;
+  margin-top: 1.5rem;
+  box-shadow: 0px 0px 1.5px white;
+}
+body footer h4 {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-family: "Dancing Script", cursive;
+}
+body footer .division {
+  color: white;
+  width: 6rem;
+  height: 1px;
+  border-bottom: 2px solid white;
+}
+body footer .icon {
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+body footer .p-footer {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 990px) {
+  body main .interiorInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  body main h2 {
+    font-size: 2rem;
+  }
+  body main .imagenFondo {
+    background-position: center;
+  }
+  body main .bienvenida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  body main .bienvenida .p-bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  body main .bienvenida .p-bienvenida h1 {
+    font-size: 1.5rem;
+  }
+  body main .bienvenida .p-bienvenida .p {
+    width: 15rem;
+  }
+  body main .bienvenida .p-bienvenida .btn-conoceme {
+    text-align: center;
+    margin-left: 2rem;
+  }
+  body footer {
+    width: 100%;
+    height: 100%;
+  }
+  body footer .img-piePagina {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  body footer .img-piePagina .img-footer {
+    width: 70%;
+    height: auto;
+    box-shadow: 0.2px 0.2px 10px white;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body main nav {
+  background-color: red;
+}
+body main h1 {
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+body main h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: white;
+  text-decoration-line: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+body main h3 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+body main .navbar-brand1 {
+  font-family: "Dancing Script", cursive;
+}
+body main .carrusel {
+  display: flex;
+  justify-content: center;
+}
+body main .carrusel .img-index {
+  width: 100%;
+  height: auto;
+}
+body main .interiorInicio {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+body main .interiorInicio .img-carrusel {
+  padding: 1rem;
+  width: 15rem;
+  height: auto;
+  margin-left: 2rem;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+body main .interiorInicio .img-carrusel:hover {
+  transform: scale(1.2);
+}
+body main .interiorInicio h3 {
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  color: black;
+  text-decoration: none;
+}
+body main .imagenFondo {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../img/RoxanayGeral/RoxanayGeral-273.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+  width: auto;
+  height: 55vh;
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+}
+body main .imagenFondo .fuente {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(12, 2, 2, 0.925);
+}
+body main .bienvenida {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+body main .bienvenida .perfil {
+  padding: 1rem;
+  width: 15rem;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+body main .bienvenida .p-bienvenida {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+}
+body main .bienvenida .p-bienvenida .p {
+  text-align: justify;
+  font-family: "Playfair Display", serif;
+}
+body main .bienvenida .p-bienvenida .btn-conoceme {
+  margin-left: 18rem;
+  color: black;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  padding: 0.2rem 1rem;
+  border: solid 1px black;
+}
+body main .bienvenida .p-bienvenida .btn-conoceme:hover {
+  background-color: black;
+  color: white;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  color: white;
+}
+body footer .img-piePagina .img-footer {
+  width: 7rem;
+  height: auto;
+  margin-top: 1.5rem;
+  box-shadow: 0px 0px 1.5px white;
+}
+body footer h4 {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-family: "Dancing Script", cursive;
+}
+body footer .division {
+  color: white;
+  width: 6rem;
+  height: 1px;
+  border-bottom: 2px solid white;
+}
+body footer .icon {
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+body footer .p-footer {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 990px) {
+  body main .interiorInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  body main h2 {
+    font-size: 2rem;
+  }
+  body main .imagenFondo {
+    background-position: center;
+  }
+  body main .bienvenida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  body main .bienvenida .p-bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  body main .bienvenida .p-bienvenida h1 {
+    font-size: 1.5rem;
+  }
+  body main .bienvenida .p-bienvenida .p {
+    width: 15rem;
+  }
+  body main .bienvenida .p-bienvenida .btn-conoceme {
+    text-align: center;
+    margin-left: 2rem;
+  }
+  body footer {
+    width: 100%;
+    height: 100%;
+  }
+  body footer .img-piePagina {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  body footer .img-piePagina .img-footer {
+    width: 70%;
+    height: auto;
+    box-shadow: 0.2px 0.2px 10px white;
+  }
+}
+body .imagenFondo-galeria {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../img/footer1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+}
+body .imagenFondo-galeria .fuente2 {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(12, 2, 2, 0.925);
+}
+body .galeria {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+body .galeria .image {
+  cursor: pointer;
+}
+body .galeria .imageh {
+  cursor: pointer;
+}
+body .modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  overflow: hidden;
+}
+body .modal .modal-content {
+  max-width: 25rem;
+  max-height: auto;
+  display: block;
+  margin: auto;
+  top: 0.5rem;
+}
+body .modal .close-modal {
+  position: absolute;
+  top: 0.5rem;
+  right: 22rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: white;
+}
+body .modalh {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  overflow: hidden;
+}
+body .modalh .modal-contenth {
+  max-width: 50rem;
+  max-height: auto;
+  top: 2rem;
+  text-align: center;
+  display: block;
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: auto;
+}
+body .modalh .close-modalh {
+  position: absolute;
+  top: 1.5rem;
+  right: 10rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 990px) {
+  body .imagenFondo-galeria {
+    background-position: center;
+  }
+  body .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+  }
+  body .modal .modal-content {
+    max-width: 80%;
+    max-height: auto;
+    display: block;
+    margin: auto;
+    top: 15rem;
+  }
+  body .modal .close-modal {
+    position: absolute;
+    top: 11rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+  }
+  body .modalh {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+  }
+  body .modalh .modal-contenth {
+    max-width: 20rem;
+    max-height: auto;
+    top: 10rem;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: auto;
+  }
+  body .modalh .close-modalh {
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+  }
+}
+@media (max-width: 360px) {
+  body .imagenFondo-galeria {
+    background-position: center;
+  }
+  body .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+  }
+  body .modal .modal-content {
+    max-width: 80%;
+    max-height: auto;
+    display: block;
+    margin: auto;
+    top: 15rem;
+  }
+  body .modal .close-modal {
+    position: absolute;
+    top: 11rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+  }
+  body .modalh {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    overflow: hidden;
+  }
+  body .modalh .modal-contenth {
+    max-width: 40rem;
+    max-height: auto;
+    top: 1rem;
+    text-align: center;
+    display: block;
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: auto;
+  }
+  body .modalh .close-modalh {
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+  }
+}
+body .imagenFondo-galeria-Roxana {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../img/RoxanayGeral/RyG (160)H.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: Center;
+  align-items: center;
+}
+body .imagenFondo-galeria-Roxana .fuente2 {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(12, 2, 2, 0.925);
 }
 
 /*# sourceMappingURL=estilos.css.map */
